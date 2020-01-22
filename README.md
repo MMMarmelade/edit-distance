@@ -20,7 +20,7 @@ Replace: replacing S1[i] with S2[j], and then we have the subpromblem of [i-1,j-
 
 Here is the test consequence:
 
-https://github.com/MMMarmelade/edit-distance/blob/master/2020-01-23_edit_distance.png
+![above is the edit-distances table, below is the subproblem directions table, 1 means left, 2 means upper, 3 means left and upper.]https://github.com/MMMarmelade/edit-distance/blob/master/2020-01-23_edit_distance.png
 
 above is the edit-distances table, below is the subproblem directions table, 1 means left, 2 means upper, 3 means left and upper.
 
