@@ -24,6 +24,12 @@ Here is the test consequence:
 
 ![above is the edit-distances table, below is the subproblem directions table, 1 means left, 2 means upper, 3 means left and upper.](https://github.com/MMMarmelade/edit-distance/blob/master/2020-01-23_edit_distance.png)
 
+above is the edit-distances table, below is the subproblem directions table, 1 means left, 2 means upper, 3 means left and upper.
+
+And left corresponding to insert, upper corresponding to delete, left and upper corresponding to replace or copy
+
 ed[6][6] equals to 3, that means S1 transform to S2 need 3 editing operations at least.
+
+The below table named B[][]. Starting from the B[6][6], we get a 3(left and up), thus the next step is B[5][5]; and here we get a 1(left), so the next one is B[5][4], and so on. Eventually, the sequence of operations is "replace, delete, copy, copy, copy, insert, copy", "replace, delete, insert" need extra operation, therefore, the total operation cost is 3, which equals to ed[6][6].
 
 *above upgraded at 22/1/2020
