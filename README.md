@@ -34,7 +34,7 @@ The below table named B[][]. Starting from the B[6][6], we get a 3(left and up),
 
 *above upgraded at 22/1/2020
 
-Here is the sequence of operations:
+Running the print_operations program, we can get the sequence of operations:
 ![](https://github.com/MMMarmelade/edit-distance/blob/master/2020-01-23_print_operations.png)
 
 *above upgraded at 23/1/2020
