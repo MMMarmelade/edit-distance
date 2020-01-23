@@ -30,6 +30,6 @@ And left corresponding to insert, upper corresponding to delete, left and upper 
 
 ed[6][6] equals to 3, that means S1 transform to S2 need 3 editing operations at least.
 
-The below table named B[][]. Starting from the B[6][6], we get a 3(left and up), thus the next step is B[5][5]; and here we get a 1(left), so the next one is B[5][4], and so on. Eventually, the sequence of operations is "replace, delete, copy, copy, copy, insert, copy", "replace, delete, insert" need extra operation, therefore, the total operation cost is 3, which equals to ed[6][6].
+The below table named B[][]. Starting from the B[6][6], we get a 3(left and up), thus the next step is B[5][5]; and here we get a 1(left), so the next one is B[5][4], and so on. Eventually, we will get the sequence of operations, that is "replace, delete, copy, copy, copy, insert, copy". "Replace, delete, insert" need extra operation, therefore, the total operation cost is 3, which equals to ed[6][6].
 
 *above upgraded at 22/1/2020
