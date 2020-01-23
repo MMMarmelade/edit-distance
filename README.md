@@ -18,10 +18,12 @@ Delete: deleting S1[i], and then we have the subproblem of [i-1,j]. Meanwhile, t
 
 Replace: replacing S1[i] with S2[j], and then we have the subpromblem of [i-1,j-1]. And the copy operation yields the same subproblem, therefore, the two situations are merged. If S1[i]!=S2[j], the edit-distance need to +1(ed[i][j]=ed[i-1][j-1]+1); otherwise, ed[i][j]=ed[i-1][j-1].
 
+In the test, S1 = "akdndd", S2 = "sdndsd".
+
 Here is the test consequence:
 
 ![above is the edit-distances table, below is the subproblem directions table, 1 means left, 2 means upper, 3 means left and upper.](https://github.com/MMMarmelade/edit-distance/blob/master/2020-01-23_edit_distance.png)
 
-above is the edit-distances table, below is the subproblem directions table, 1 means left, 2 means upper, 3 means left and upper.
+ed[6][6] equals to 3, that means S1 transform to S2 need 3 editing operations at least.
 
 *above upgraded at 22/1/2020
